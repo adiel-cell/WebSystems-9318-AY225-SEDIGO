@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             email: "s.val@ccs.edu",
             phone: "(123) 456-7890 ext. 101",
             office: "CS Building, Room 301",
-            image: "Sir Val.png"
+            image: "Sir Val.PNG"
         },
         {
             id: 2,
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
             email: "l.park@ccs.edu",
             phone: "(123) 456-7890 ext. 105",
             office: "CS Building, Room 310",
-            image: "lisa.jpg"
+            image: "Lisa.jpg"
         },
         {
             id: 6,
