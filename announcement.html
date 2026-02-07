@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements | College of Computer Studies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation and Back Button -->
+<header class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="logo-text">
+                        <h1>College of Computer Studies</h1>
+                        <p class="tagline">Excellence in Computing Education</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Back Button (only visible when not on home page) -->
+            <a href="#" id="backButton" class="back-btn" style="display: none;">
+                <i class="fas fa-arrow-left"></i>
+                <span class="back-text">Back to Previous Page</span>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <nav class="nav" id="mainNav">
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="college.html"><i class="fas fa-university"></i> About College</a></li>
+                <li><a href="academics.html"><i class="fas fa-graduation-cap"></i> Academics</a></li>
+                <li><a href="faculty.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+                <li><a href="announcement.html"><i class="fas fa-bullhorn"></i> Announcements</a></li>
+                <li><a href="inquiry.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <!-- Breadcrumb Navigation -->
+<section class="breadcrumb">
+    <div class="container">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="college.html">About College</a></li>
+            <!-- Add more breadcrumbs as needed for deeper pages -->
+        </ul>
+    </div>
+</section>
+    <!-- Announcements Header -->
+    <section class="announcements-header">
+        <div class="container">
+            <h1>Announcements & Events</h1>
+            <p>Stay updated with the latest news, events, and important dates from the College of Computer Studies.</p>
+        </div>
+    </section>
+
+    <!-- Announcements Controls -->
+    <section class="announcements-controls">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-category="all">All</button>
+                <button class="filter-tab" data-category="academic">Academic</button>
+                <button class="filter-tab" data-category="event">Events</button>
+                <button class="filter-tab" data-category="career">Career</button>
+                <button class="filter-tab" data-category="financial">Financial</button>
+                <button class="filter-tab" data-category="workshop">Workshops</button>
+            </div>
+            <div class="view-toggle">
+                <button class="active" data-view="grid"><i class="fas fa-th-large"></i></button>
+                <button data-view="list"><i class="fas fa-list"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements Container -->
+    <section class="announcements-container">
+        <div class="container">
+            <div class="announcements-grid" id="announcementsContainer" data-view="grid">
+                <!-- Announcements will be loaded dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section class="calendar-section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <h2 class="section-title">Academic Calendar</h2>
+            <div class="calendar-container">
+                <div class="calendar-month">
+                    <h3>September 2026</h3>
+                    <div class="calendar-dates">
+                        <div class="calendar-date important">
+                            <span class="day">5</span>
+                            <span class="event">Last day to add/drop courses</span>
+                        </div>
+                        <div class="calendar-date">
+                            <span class="day">10</span>
+                            <span class="event">Scholarship deadline</span>
+                        </div>
+                        <div class="calendar-date">
+                            <span class="day">20</span>
+                            <span class="event">Tech Symposium</span>
+                        </div>
+                        <div class="calendar-date">
+                            <span class="day">25</span>
+                            <span class="event">Cybersecurity workshop begins</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="calendar-month">
+                    <h3>October 2026</h3>
+                    <div class="calendar-dates">
+                        <div class="calendar-date">
+                            <span class="day">5</span>
+                            <span class="event">Data Science Competition</span>
+                        </div>
+                        <div class="calendar-date important">
+                            <span class="day">15-16</span>
+                            <span class="event">Midterm exams</span>
+                        </div>
+                        <div class="calendar-date">
+                            <span class="day">18</span>
+                            <span class="event">Career Fair</span>
+                        </div>
+                        <div class="calendar-date">
+                            <span class="day">31</span>
+                            <span class="event">Halloween Hackathon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="calendar-month">
+                    <h3>November 2026</h3>
+                    <div class="calendar-dates">
+                        <div class="calendar-date">
+                            <span class="day">10</span>
+                            <span class="event">Veterans Day - No classes</span>
+                        </div>
+                        <div class="calendar-date">
+                            <span class="day">22-24</span>
+                            <span class="event">Thanksgiving Break</span>
+                        </div>
+                        <div class="calendar-date important">
+                            <span class="day">30</span>
+                            <span class="event">Last day to withdraw from courses</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Same footer as index.html -->
+    <footer class="footer">
+        <!-- Copy footer from index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/announcements.js"></script>
+</body>
+</html>

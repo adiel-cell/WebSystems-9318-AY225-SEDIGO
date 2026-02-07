@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Programs | College of Computer Studies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation and Back Button -->
+<header class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="logo-text">
+                        <h1>College of Computer Studies</h1>
+                        <p class="tagline">Excellence in Computing Education</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Back Button (only visible when not on home page) -->
+            <a href="#" id="backButton" class="back-btn" style="display: none;">
+                <i class="fas fa-arrow-left"></i>
+                <span class="back-text">Back to Previous Page</span>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <nav class="nav" id="mainNav">
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="college.html"><i class="fas fa-university"></i> About College</a></li>
+                <li><a href="academics.html"><i class="fas fa-graduation-cap"></i> Academics</a></li>
+                <li><a href="faculty.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+                <li><a href="announcement.html"><i class="fas fa-bullhorn"></i> Announcements</a></li>
+                <li><a href="inquiry.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <!-- Breadcrumb Navigation -->
+<section class="breadcrumb">
+    <div class="container">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="college.html">About College</a></li>
+            <!-- Add more breadcrumbs as needed for deeper pages -->
+        </ul>
+    </div>
+</section>
+    <!-- Academics Header -->
+    <section class="academics-header">
+        <div class="container">
+            <h1>Academic Programs</h1>
+            <p>Comprehensive computing education designed to prepare students for successful careers in technology.</p>
+        </div>
+    </section>
+
+    <!-- Program Tabs -->
+    <section class="programs-section">
+        <div class="container">
+            <div class="program-tabs">
+                <button class="program-tab active" data-program="cs">Computer Science</button>
+                <button class="program-tab" data-program="cyber">Cybersecurity</button>
+                <button class="program-tab" data-program="data">Data Science</button>
+                <button class="program-tab" data-program="it">IT Management</button>
+                <button class="program-tab" data-program="se">Software Engineering</button>
+                <button class="program-tab" data-program="game">Game Development</button>
+                <button class="program-tab" data-program="hci">Human-Computer Interaction</button>
+            </div>
+
+            <!-- Program Content Areas -->
+            <div class="program-content active" id="cs">
+                <!-- Content will be loaded by JavaScript -->
+                <div id="programDetails">
+                    <!-- Program details will be dynamically inserted here -->
+                </div>
+            </div>
+            
+            <div class="program-content" id="cyber">
+                <!-- Content will be loaded by JavaScript when tab is clicked -->
+            </div>
+            
+            <div class="program-content" id="data">
+                <!-- Content will be loaded by JavaScript when tab is clicked -->
+            </div>
+            
+            <div class="program-content" id="it">
+                <!-- Content will be loaded by JavaScript when tab is clicked -->
+            </div>
+            
+            <div class="program-content" id="se">
+                <!-- Content will be loaded by JavaScript when tab is clicked -->
+            </div>
+            
+            <div class="program-content" id="game">
+                <!-- Content will be loaded by JavaScript when tab is clicked -->
+            </div>
+            
+            <div class="program-content" id="hci">
+                <!-- Content will be loaded by JavaScript when tab is clicked -->
+            </div>
+
+            <!-- Additional Programs Info -->
+            <div class="additional-programs" style="margin-top: 80px;">
+                <h2 class="section-title">Graduate Programs</h2>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-mastercard"></i>
+                        </div>
+                        <h3>Master of Science in Computer Science</h3>
+                        <p>Advanced study in specialized areas of computing with research opportunities.</p>
+                        <a href="inquiry.html" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>PhD in Computing</h3>
+                        <p>Doctoral program preparing students for research and academic careers.</p>
+                        <a href="inquiry.html" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Professional Certificates</h3>
+                        <p>Short-term programs in specialized areas like cloud computing and DevOps.</p>
+                        <a href="inquiry.html" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Same footer as index.html -->
+    <footer class="footer">
+        <!-- Copy footer from index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/academics.js"></script>
+</body>
+</html>
