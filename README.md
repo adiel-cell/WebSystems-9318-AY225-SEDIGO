@@ -13,4 +13,4 @@ I'm **[Your Name]**, and I created this space to share my work, learn in public,
 
 Take a look around, and don't hesitate to reach out!
 
-— [Your Name]
+Yours truly — [Adiel E. Sedigo]
