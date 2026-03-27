@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About College | College of Computer Studies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation and Back Button -->
+<header class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="logo-text">
+                        <h1>College of Computer Studies</h1>
+                        <p class="tagline">Excellence in Computing Education</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Back Button (only visible when not on home page) -->
+            <a href="#" id="backButton" class="back-btn" style="display: none;">
+                <i class="fas fa-arrow-left"></i>
+                <span class="back-text">Back to Previous Page</span>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <nav class="nav" id="mainNav">
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="college.html"><i class="fas fa-university"></i> About College</a></li>
+                <li><a href="academics.html"><i class="fas fa-graduation-cap"></i> Academics</a></li>
+                <li><a href="faculty.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+                <li><a href="announcement.html"><i class="fas fa-bullhorn"></i> Announcements</a></li>
+                <li><a href="inquiry.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <!-- Breadcrumb Navigation -->
+<section class="breadcrumb">
+    <div class="container">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="college.html">About College</a></li>
+            <!-- Add more breadcrumbs as needed for deeper pages -->
+        </ul>
+    </div>
+</section>
+    <!-- College Header -->
+    <section class="college-header">
+        <div class="container">
+            <h1>About Our College</h1>
+            <p>Pioneering computing education since 1995, preparing students for leadership in technology fields.</p>
+            <a href="#history" class="btn btn-primary">Our History</a>
+            <a href="#mission" class="btn btn-secondary" style="margin-left: 15px;">Mission & Vision</a>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="container">
+            <!-- History Section -->
+            <div class="about-section" id="history">
+                <h2>Our History</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>The College of Computer Studies was established in 1995 with a vision to create a center of excellence in computing education. What began as a small department with just two faculty members and 50 students has grown into one of the region's leading institutions for computer science and information technology education.</p>
+                        <p>Over the years, we have continually evolved our curriculum to keep pace with technological advancements, adding programs in cybersecurity, data science, and IT management to our original computer science offering.</p>
+                        <p>Today, we serve over 1,200 students across undergraduate and graduate programs, supported by more than 45 full-time faculty members and state-of-the-art facilities.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="College campus">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission & Vision -->
+            <div class="about-section" id="mission">
+                <h2>Mission & Vision</h2>
+                <div class="mission-vision">
+                    <div class="mission-card">
+                        <div class="mission-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To provide exceptional computing education through innovative teaching, cutting-edge research, and industry collaboration, preparing students to become ethical leaders and problem-solvers in a technology-driven world.</p>
+                    </div>
+                    <div class="vision-card">
+                        <div class="vision-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To be recognized as a premier institution for computing education and research, known for producing graduates who drive innovation and positively impact society through technology.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Values -->
+            <div class="about-section">
+                <h2>Our Values</h2>
+                <div class="values-list">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Innovation</h4>
+                        <p>We foster creativity and encourage novel approaches to solving complex problems.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Collaboration</h4>
+                        <p>We believe in the power of teamwork and interdisciplinary cooperation.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Excellence</h4>
+                        <p>We maintain high standards in teaching, research, and student development.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Integrity</h4>
+                        <p>We uphold ethical principles in all our academic and professional endeavors.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Facilities -->
+            <div class="about-section">
+                <h2>Our Facilities</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Computer lab">
+                    </div>
+                    <div class="about-text">
+                        <p>Our college is housed in the state-of-the-art Technology Center, which features:</p>
+                        <ul style="margin: 20px 0; padding-left: 20px;">
+                            <li>10 specialized computer laboratories</li>
+                            <li>Cybersecurity lab with isolated network for ethical hacking exercises</li>
+                            <li>Data science lab with high-performance computing resources</li>
+                            <li>Innovation hub for student projects and startups</li>
+                            <li>Collaborative workspaces and study areas</li>
+                            <li>Research centers in AI, cybersecurity, and human-computer interaction</li>
+                        </ul>
+                        <p>Our facilities are regularly updated with the latest hardware and software to ensure students have access to industry-standard tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Same footer as index.html -->
+    <footer class="footer">
+        <!-- Copy footer from index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

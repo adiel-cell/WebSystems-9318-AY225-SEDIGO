@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College of Computer Studies | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- Header with Navigation and Back Button -->
+<header class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="logo-text">
+                        <h1>College of Computer Studies</h1>
+                        <p class="tagline">Excellence in Computing Education</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Back Button (only visible when not on home page) -->
+            <a href="#" id="backButton" class="back-btn" style="display: none;">
+                <i class="fas fa-arrow-left"></i>
+                <span class="back-text">Back to Previous Page</span>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <nav class="nav" id="mainNav">
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="college.html"><i class="fas fa-university"></i> About College</a></li>
+                <li><a href="academics.html"><i class="fas fa-graduation-cap"></i> Academics</a></li>
+                <li><a href="faculty.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+                <li><a href="announcement.html"><i class="fas fa-bullhorn"></i> Announcements</a></li>
+                <li><a href="inquiry.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Shaping the Future of Computing</h2>
+                <p>Preparing the next generation of technology leaders through innovative programs, cutting-edge research, and industry partnerships.</p>
+                <div class="hero-buttons">
+                    <a href="academics.html" class="btn btn-primary">Explore Programs</a>
+                    <a href="inquiry.html" class="btn btn-secondary">Apply Now</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Students collaborating in computer lab">
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>1,200+</h3>
+                <p>Students Enrolled</p>
+            </div>
+            <div class="stat-item">
+                <h3>45+</h3>
+                <p>Faculty Members</p>
+            </div>
+            <div class="stat-item">
+                <h3>8</h3>
+                <p>Academic Programs</p>
+            </div>
+            <div class="stat-item">
+                <h3>92%</h3>
+                <p>Graduate Employment Rate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Programs -->
+    <section class="featured-programs">
+        <div class="container">
+            <h2 class="section-title">Featured Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Computer Science</h3>
+                    <p>Comprehensive curriculum covering algorithms, data structures, software engineering, and AI.</p>
+                    <a href="academics.html#cs" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Prepare for careers in information security, network defense, and ethical hacking.</p>
+                    <a href="academics.html#cyber" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Science</h3>
+                    <p>Master data analysis, machine learning, and statistical modeling techniques.</p>
+                    <a href="academics.html#data" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>IT Management</h3>
+                    <p>Bridge business and technology with courses in project management and systems analysis.</p>
+                    <a href="academics.html#it" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="upcoming-events">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="events-list" id="homeEvents">
+                <!-- Events will be loaded via JavaScript -->
+            </div>
+            <div class="text-center">
+                <a href="announcement.html" class="btn btn-outline">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>College of Computer Studies</h3>
+                    <p>123 University Avenue<br>Academic City, AC 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@ccs.edu</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="college.html">About</a></li>
+                        <li><a href="academics.html">Programs</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="announcement.html">Announcements</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Subscribe to our newsletter</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 College of Computer Studies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/announcements.js"></script>
+</body>
+</html>
